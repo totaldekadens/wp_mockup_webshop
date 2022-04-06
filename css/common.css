@@ -1,0 +1,42 @@
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.containerLogoFooter {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    justify-content: center;
+    color: rgb(255, 251, 247);
+    font-size: 100px;
+}
+
+.containerLogoFooter h1 {
+    margin: 0px;
+}
+
+.logoSad {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footerInfo {
+    background-color: rgb(255, 251, 247);
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+h2 {
+    color: rgba(0, 0, 0, 0.745);
+}
