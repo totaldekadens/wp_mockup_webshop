@@ -4,54 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/produktsida.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c8e3ce7fef.js" crossorigin="anonymous"></script>
+    <title>SAD Active</title>
 </head>
 <body>
     <header></header>
+    <div class="breadCrumbs">
+        <a href="#" class="back"><p>< Tillbaka</p></a> 
+        <a href="#" class="shoePage"><p>skor</p></a>
+    </div>
     <div class="container">
-        <div class="breadCrumbs">
-            <p>Tillbaka</p>
-            <p>skor</p>
+        <div class="productCon">
+                <div class="productSwiper">
+                    <div class="productPicCon">
+                        <img class="productPic" src="/produktbilder/skor/Ultraboost_Pb_Core_Black.webp" alt="gray jacka">
+                    </div>
+                </div>
+                <div class="productAttCon">
+                    <img src="/assets/adidas_logo_wbg.webp" class="productLogo">
+                    <h3 class="productTitle">Ultra boost Pb Core Black </h3>
+                    <h4 class="price">1 329 kr</h4>
+                    <h5 class="sizeTitle">Finns i lager🙂</h5>    
+                    <div class="sizeSelCon">
+                        <select name="sizes" id="sizeSelector">
+                            <option value="" disabled selected>Välj Storlek</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                        </select>
+                    </div>
+                    <div class="addToCartBtnCon">
+                        <button class="addToCartBtn">LÄGG I VARUKORGEN</button>
+                    </div>
+                    <h4 class="pdTitle">Produkt Beskrivning</h4>
+                    <span class="seperator"></span>
+                    <div class="productDescript">
+                        <p>Här är din nya bästa vän för dina snabbaste och längsta löpturer. Den eleganta silhuetten och den responsiva komforten hos Ultraboost gör dig redo för tävlingar och allt du kan tänka dig. Dessa Ultraboost PB-skor har en ovansida gjord av den lättaste mesh som adidas har. Invärtes stöd låser fast passformen när du spurtar mot mål. 3 ränder inspirerade av japansk kalligrafi bidrar till den snabba känslan.</p>
+                    </div>
+                </div>
         </div>
-            <div class="carouselSlider">
-                <img src="/produktbilder/skor/Ultraboost_Pb_Core_Black.webp" alt="gray jacka">
-            </div>
-            <img src="/assets/adidas_logo_wbg.webp" class="productLogo">
-            <div class="productTitleContainer">
-                <h3 class="productTitle">Ultra boost Pb Core Black </h3>
-                <h4 class="price">1329;-</h4>
-            </div>
-        <h6 class="sizeTitle">Storlekar</h6>    
-        <div class="sizeSelCon">
-            <select name="sizes" id="sizeSelector">
-                <option value="" disabled selected>Välj Storlek</option>
-                    <option value="39">39</option>
-                    <option value="40">40</option>
-                    <option value="41">41</option>
-                    <option value="42">42</option>
-                    <option value="43">43</option>
-                    <option value="44">44</option>
-            </select>
-        </div>
-        <div class="addToCartBtnCon">
-            <button class="addToCartBtn">LÄGG I VARUKORGEN</button>
-        </div>
-
-        <h4 class="pdTitle">Produkt Beskrivning</h4>
-        <div class="productDescript">
-            
-            <p>Här är din nya bästa vän för dina snabbaste och längsta löpturer. Den eleganta silhuetten och den responsiva komforten hos Ultraboost gör dig redo för tävlingar och allt du kan tänka dig. Dessa Ultraboost PB-skor har en ovansida gjord av den lättaste mesh som adidas har. Invärtes stöd låser fast passformen när du spurtar mot mål. 3 ränder inspirerade av japansk kalligrafi bidrar till den snabba känslan.</p>
-        </div>
-
-        <div class="relatePro">
-            <div class="relateCarousel">
-                <img src="/produktbilder/skor/Cloudfoam_Pure_2.0.webp" alt="">
-                <img src="/produktbilder/skor/Eq21_Run_Dash_Grey.webp" alt="">
-                <img src="/produktbilder/skor/Puremotion_Adapt.webp" alt="">
-                <img src="/produktbilder/skor/Racer _Tr21_Cloud2.webp" alt="">
-                <img src="/produktbilder/skor/Ultraboost_Pb_Core_Black.webp" alt="">
-            </div>
-        </div>
+        <h1 class="relateTitle">Du kanske också gillar</h1>
+            <div class="relateSwiperCon">
+                
+                <div class="relatePicCon">
+                    <img class="relSwiPic" src="/produktbilder/skor/Cloudfoam_Pure_2.0.webp" alt="">
+                    <i id="swiperArrowLeft" class="fas fa-chevron-circle-left"></i>
+                </div>
+                <div class="relatePicCon">
+                    <img class="relSwiPic" src="/produktbilder/underdel/Adidas_Run_It_Tight_7-8_ 3_ Stripe_Women_Black.webp" alt="">
+                </div>
+                <div class="relatePicCon">
+                    <img class="relSwiPic" src="/produktbilder/överdel/Marathon_Jacket_Translucent_Men_Black.webp" alt="">
+                </div>
+                <div class="relatePicCon">
+                    <img class="relSwiPic" src="/produktbilder/skor/Racer_Tr21_Cloud.webp" alt="">
+                </div>                
+                <div class="relatePicCon">
+                    <img class="relSwiPic" src="/produktbilder/överdel/Own_The_Run_Long_Sleeve_ Tee_Black.webp" alt="">
+                    <i id="swiperArrowRight" class="fas fa-chevron-circle-right"></i>               
+                </div> 
+                </div>
     </div>
 </body>
 </html>
